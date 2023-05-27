@@ -1,0 +1,86 @@
+[
+    {
+        "h1": "1. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "2. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face2.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "3. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face3.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "1. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "2. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face2.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "3. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face3.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "1. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "2. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face2.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "3. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face3.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "1. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "2. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face2.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    },
+    {
+        "h1": "3. TITLE HERE",
+        "p": "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Pretium consectetur egestas.",
+        "img": "../IMG/face3.png",
+        "h2": "Alex Mex",
+        "h4": "CEO/DIRECTOR"
+    }
+]

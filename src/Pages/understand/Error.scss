@@ -1,0 +1,87 @@
+@import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
+@import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
+@import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+
+
+
+.Error_container {
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    padding: 13% 0;
+
+    .Error_top {
+        text-align: center;
+        border: inherit;
+        position: relative;
+
+        &::after {
+            content: url("./img/delete.png");
+            position: absolute;
+            left: 50%;
+            top: -35%;
+        }
+
+    }
+
+    .Error_bottom {
+        text-align: center;
+
+        h1 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            text-align: center;
+            color: #1E1E1E;
+        }
+
+        p {
+            margin-top: 24px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #1E1E1E;
+        }
+
+        button {
+            padding: 12px 24px;
+            background: #FF3C78;
+            border-radius: 16px;
+            border: none;
+            transition: all .5s;
+            text-decoration: none;
+            margin-top: 3%;
+            color: #FFFFFF;
+
+            a {
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+            &:hover {
+                a{
+                    color: #FF3C78;       
+                }
+                background-color: #FFFFFF;
+                color: #FF3C78;
+                border: 1.5px solid #FF3C78;
+
+            }
+        }
+    }
+
+    @media screen and (min-width: 834px) {
+        width: 834px;
+        margin: auto;
+
+    }
+}

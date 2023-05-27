@@ -1,0 +1,38 @@
+[
+    {
+        "img": "../IMG/People1.png",
+        "h1": "Katie Smith",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    },
+    {
+        "img": "../IMG/People2.png",
+        "h1": "Borkat Ali",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    },
+    {
+        "img": "../IMG/People3.png",
+        "h1": "Alex Mex",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    },
+    {
+        "img": "../IMG/People4.png",
+        "h1": "Tahn Lane",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    },
+    {
+        "img": "../IMG/People5.png",
+        "h1": "Maruf Mia",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    },
+    {
+        "img": "../IMG/People6.png",
+        "h1": "Katie Smith",
+        "p": "Lorem ipsum dolor sit amet, consec -tetur adipiscing elit. ",
+        "img2": "../IMG/Peopleicon.png"
+    }
+]

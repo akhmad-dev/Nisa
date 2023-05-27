@@ -1,0 +1,22 @@
+[
+  {
+    "img": "../IMG/Icon1.png",
+    "name": "Blog",
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "img": "../IMG/Icon3.png",
+    "name": "Documentation",
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "img": "../IMG/Icon2.png",
+    "name": "intergrations",
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "img": "../IMG/Icon4.png",
+    "name": "Customers",
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  }
+]

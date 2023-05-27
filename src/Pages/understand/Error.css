@@ -1,0 +1,86 @@
+@import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
+@import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
+@import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
+.Error_container {
+  text-align: center;
+  background: white;
+  padding: 13% 0;
+}
+
+.Error_container .Error_top {
+  text-align: center;
+  border: inherit;
+  position: relative;
+}
+
+.Error_container .Error_top::after {
+  content: url("./img/delete.png");
+  position: absolute;
+  left: 50%;
+  top: -35%;
+}
+
+.Error_container .Error_bottom {
+  text-align: center;
+}
+
+.Error_container .Error_bottom h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.Error_container .Error_bottom p {
+  margin-top: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.Error_container .Error_bottom button {
+  padding: 12px 24px;
+  background: #FF3C78;
+  border-radius: 16px;
+  border: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  text-decoration: none;
+  margin-top: 3%;
+  color: #FFFFFF;
+}
+
+.Error_container .Error_bottom button a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.Error_container .Error_bottom button:hover {
+  background-color: #FFFFFF;
+  color: #FF3C78;
+  border: 1.5px solid #FF3C78;
+}
+
+.Error_container .Error_bottom button:hover a {
+  color: #FF3C78;
+}
+
+@media screen and (min-width: 834px) {
+  .Error_container {
+    width: 834px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=Error.css.map */
