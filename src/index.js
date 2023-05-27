@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Error from "./Pages/understand/Error"
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Error from "./Pages/understand/Error";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Wrapper from "./Components/Wrapper/Wrapper";
 import Focused from "./Pages/About/Focused/Focused";
 import Team from "./Pages/Contact/Team/Team";
@@ -11,11 +11,7 @@ import Latest from "./Pages/Blog/Latest/Latest";
 import Login from "./Pages/Register Section/Login/Login";
 import Last from "./Pages/Login page/Last/Last";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
   {
@@ -63,14 +59,9 @@ const router = createBrowserRouter([
         element: <Last />,
         errorElement: <Error />,
       },
-
-
-
     ],
   },
-])
-
-
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -78,6 +69,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-{/* <App /> */ }
-
-

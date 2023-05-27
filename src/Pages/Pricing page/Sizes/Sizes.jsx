@@ -20,7 +20,7 @@ const Sizes = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Pretium consectetur egestas mauris adipiscing dui.</p>
                         <div className="Sizes_top_btn">
                             <button>Monthly plan</button>
-                            <a href="">Annual plan</a>
+                            <a href="/">Annual plan</a>
                         </div>
                     </div>
                     <div className="Sizes_bottom_row">
