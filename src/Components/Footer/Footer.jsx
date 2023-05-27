@@ -82,7 +82,7 @@ const Footer = () => {
                     </h2>
                 </div>
                 <div className="Footer_top_one">
-                    <h1>Overview</h1>
+                    <h1>Overviewo</h1>
                     <li>
                         <a href="/home">Home </a>
                         <a href="/about">About </a>
