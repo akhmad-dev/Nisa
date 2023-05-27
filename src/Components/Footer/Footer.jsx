@@ -12,7 +12,7 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
                         Tellus euismod fusce pulvinar amet. Sollicitudin <br /> nullam
                         mauris tellus accumsan, phasellus. <br /> Ut ac consequat arcu non
-                        aliquam.{" "}
+                        aliquam.
                     </p>
                     <h2>
                         <svg
@@ -87,7 +87,7 @@ const Footer = () => {
                         <a href="/home">Home </a>
                         <a href="/about">About </a>
                         <a href="/blog">Blog </a>
-                        {/* <a href="/">Blog post</a> */}
+                        <a href="/">Blog post</a>
                         <a href="/">Team Mamber</a>
                     </li>
                 </div>
