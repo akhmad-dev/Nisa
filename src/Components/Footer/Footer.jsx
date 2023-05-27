@@ -87,7 +87,7 @@ const Footer = () => {
                         <a href="/home">Home </a>
                         <a href="/about">About </a>
                         <a href="/blog">Blog </a>
-                        <a href="/">Blog post</a>
+                        {/* <a href="/">Blog post</a> */}
                         <a href="/">Team Mamber</a>
                     </li>
                 </div>
