@@ -671,10 +671,8 @@
 
       .Sponsors {
         background: #ffffff;
-
         .Sponsors_Main {
           position: relative;
-
           &::before {
             content: url("../Components/img/Sponsorsafter.png");
             position: absolute;
@@ -716,7 +714,7 @@
       }
 
       .Love {
-        padding: 28px 14%;
+        padding: 50px 14%;
         background: #f9f5f2;
 
         h1 {
@@ -792,9 +790,7 @@
         .slick-slider {
           button {
             &::before {
-              // width: 200px;
               color: #000;
-              // height: 200px;
             }
           }
         }
@@ -1754,7 +1750,9 @@
             .Sizes_top_btn {
               text-align: center;
               margin-top: 64px;
-
+              display: flex;
+              justify-content: center;
+              gap :15px;
               a {
                 text-decoration: none;
                 padding: 14px 24px;
@@ -1785,15 +1783,14 @@
             gap: 58px;
             cursor: pointer;
             transition: all 0.5s;
-
-            .Sizes_bottom_first {
+           
+             .Sizes_bottom_first {
               background: #fff;
               border-radius: 16px;
               height: auto;
               padding: 24px;
               transition: all 0.6s;
               width: 33%;
-              // padding: 24px;
 
               .Sizes_bottom_two {
                 padding-top: 32px;
@@ -3531,9 +3528,9 @@
           }
         }
 
-        .People {
+        .People { 
           .People_Main {
-            padding: 28px 4%;
+            padding: 50px 4%;
 
             .People_Top {
               button {
@@ -4652,40 +4649,6 @@
             }
           }
         }
-
-        // .Discover {
-        //   padding: 28px 6%;
-
-        //   .Discover_Main {
-        //     .Discover_Img {
-        //       img {
-        //         width: 400px;
-        //         height: 400px;
-        //       }
-
-        //       &::after {
-        //         content: url("../Components/img/Discoverbefore.png");
-        //         position: absolute;
-        //         left: 25%;
-        //         top: 45%;
-        //       }
-        //     }
-
-        //     .Discover_text {
-        //       .Discover_text_one {
-        //         h1 {
-        //           font-size: 38px;
-        //           line-height: 45px;
-        //         }
-
-        //         p {
-        //           font-size: 14px;
-        //           line-height: 22px;
-        //         }
-        //       }
-        //     }
-        //   }
-        // }
 
         .Sponsors {
           .Sponsors_Main {
@@ -6183,6 +6146,15 @@
             padding: 28px 10%;
           }
         }
+        .slick-slider {
+          .slick-prev {
+            margin-top: 20px;
+            padding: 0 50px 0 0;
+          }
+          .slick-next {
+            margin-top: 20px;
+          }
+        }
       }
 
       @media screen and (max-width: 900px) {
@@ -6825,6 +6797,7 @@
           .Header_mobileNav {
             display: block;
             position: relative;
+            z-index: 99;
 
             .mobileNav {
               position: fixed;
@@ -6834,7 +6807,7 @@
               opacity: 0;
               transition: all 0.4s;
               height: 20;
-              background-color: gray;
+              background-color: #ffffff;
 
               li {
                 width: 100%;
@@ -9452,6 +9425,17 @@
             }
           }
         }
+        .slick-slider {
+          .slick-prev {
+            margin-top: 20px;
+            &::before {
+              display: none;
+            }
+          }
+          .slick-next {
+            margin-top: 20px;
+          }
+        }
       }
 
       @media screen and (max-width: 650px) {
@@ -10753,14 +10737,14 @@
               &::after {
                 content: url("../Components/img/Powerbefore.png");
                 position: absolute;
-                left: -5%;
+                left: -13%;
                 top: -5%;
               }
 
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                left: 40%;
                 top: 70%;
               }
             }
@@ -11294,7 +11278,7 @@
               opacity: 0;
               transition: all 0.4s;
               height: 20;
-              background-color: gray;
+              background-color: #ffffff;
 
               li {
                 width: 100%;
@@ -11435,7 +11419,7 @@
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                left: 50%;
                 top: 70%;
               }
             }
@@ -11883,8 +11867,8 @@
           .Header_mobileNav {
             display: block;
             position: relative;
-
             .mobileNav {
+              width: 100%;
               position: fixed;
               top: 100px;
               left: 0%;
@@ -11892,7 +11876,7 @@
               opacity: 0;
               transition: all 0.4s;
               height: 20;
-              background-color: gray;
+              background-color: white;
 
               li {
                 width: 100%;
@@ -11901,6 +11885,7 @@
                 list-style-type: none;
 
                 a {
+                  width: 100%;
                   text-decoration: none;
                   font-family: "Roboto";
                   font-style: normal;
@@ -11919,10 +11904,6 @@
                     left: 0;
                     background-color: #ffffff;
                     transition: all 0.5s;
-
-                    &:active {
-                      transform: scale(0.98);
-                    }
                   }
 
                   &:hover {
@@ -11935,10 +11916,6 @@
                 }
               }
             }
-
-            // .icon{
-            //
-            // }
 
             .activeNavbar {
               top: 0%;
@@ -12038,7 +12015,7 @@
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                // left: 60%;
                 top: 70%;
               }
             }
@@ -12591,7 +12568,7 @@
               opacity: 0;
               transition: all 0.4s;
               height: 20;
-              background-color: gray;
+              background-color: white;
 
               li {
                 width: 100%;
@@ -12733,7 +12710,7 @@
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                // left: 60%;
                 top: 70%;
               }
             }
@@ -13022,6 +12999,7 @@
             position: relative;
 
             .mobileNav {
+              width: 100%;
               position: fixed;
               top: 100px;
               left: 0%;
@@ -13029,7 +13007,7 @@
               opacity: 0;
               transition: all 0.4s;
               height: 20;
-              background-color: gray;
+              background-color: white;
 
               li {
                 width: 100%;
@@ -13171,7 +13149,7 @@
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                left: 20%;
                 top: 70%;
               }
             }
@@ -13933,7 +13911,7 @@
               &::before {
                 content: url("../Components/img/After.png");
                 position: absolute;
-                left: 60%;
+                // left: 60%;
                 top: 70%;
               }
             }
@@ -14223,11 +14201,12 @@
 }
 
 .slick-slider {
+  margin-bottom: 50px;
   .slick-prev {
     z-index: 2;
     top: 100%;
     left: 45%;
-
+    padding: 0 50px 0 0;
     &::before {
       font-size: 50px;
       width: 200px;
